@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-black;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+body {
+    background: Black;
+    background-size: cover;
+    color: #fff;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+.imgcontainer2 {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+img.avatar {
+  width: 90%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+    width:50%;
+  margin: 0 auto;
+}
+
+span.psw {
+  float: right;
+  padding-top:16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+     }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+  <div class="container">
+<h2></h2>
+  
+
+<form action="home.html" method="post">
+  <div class="imgcontainer">
+    <img src="https://scontent.fdvo1-1.fna.fbcdn.net/v/t1.15752-9/423422313_1176835979952917_2079770951630444454_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGIrUGiCKDuPIF-4y9G36uHxobahYU78JLGhtqFhTvwkjiM32VX4XnJd1t2ieoQ-OKMtV_Mm1iM_rQj3nK403r1&_nc_ohc=tItnwRQuS3kAX_bF5MK&_nc_ht=scontent.fdvo1-1.fna&oh=03_AdRe_B_ePlzn2IHKQrz9GcSy0WLUsH8QVbDtZ1oIEiM6rg&oe=65EB1875" alt="Avatar" class="avatar">
+  </div>
+  <div class="container">
+    <label for="id">Username:</label>
+ <input type="text" id="id" name="id" placeholder="Enter your Username"name="uname" required>
+ <label for="password">Password:</label>
+ <input type="password" id="password" name="password" placeholder="Enter your password" name="psw" required>
+    <button type="submit">Login</button>
+    <label>
+      </li> New to Stroll & Stride? 
+     <a href="signIn.html">Create an account</a>.
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+     <button type="button" class="cancelbtn"><a href="">Cancel</a></li></a></button>
+    <span class="psw"><a href="#"><a href="forgot.html">Forgot password?</a></li></a></span>
+    
+  </div>
+</form>
+
+</body>
+</html>
